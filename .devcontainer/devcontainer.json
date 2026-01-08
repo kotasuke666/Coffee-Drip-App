@@ -5,5 +5,8 @@
     "ghcr.io/devcontainers/features/android:1": {
       "installJdk": "17"
     }
+  },
+  "containerEnv": {
+    "JAVA_HOME": "/usr/local/sdkman/candidates/java/current"
   }
 }
