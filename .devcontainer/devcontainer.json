@@ -1,17 +1,9 @@
 {
-  "name": "Kotlin App",
-  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "name": "Android App",
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
   "features": {
-    "ghcr.io/devcontainers/features/java:1": {
-      "version": "17",
-      "installMaven": "false",
-      "installGradle": "false"
-    },
     "ghcr.io/devcontainers/features/android:1": {
-      "version": "34",
-      "buildTools": "34.0.0",
-      "additionalSdkPackages": "platform-tools"
+      "installJdk": "17"
     }
-  },
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libsecret-1-0"
+  }
 }
