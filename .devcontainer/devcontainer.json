@@ -1,12 +1,7 @@
 {
-  "name": "Android App",
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "name": "Java & Android App",
+  "image": "mcr.microsoft.com/devcontainers/java:0-17",
   "features": {
-    "ghcr.io/devcontainers/features/android:1": {
-      "installJdk": "17"
-    }
-  },
-  "containerEnv": {
-    "JAVA_HOME": "/usr/local/sdkman/candidates/java/current"
+    "ghcr.io/devcontainers/features/android:1": {}
   }
 }
